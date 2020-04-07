@@ -16,13 +16,13 @@ Our goal is to implement a little web server app that receives url shortening co
 
 ## Steps to run the code
 
-Step 1: Clone the code
+**Step 1**: Clone the code
 
-Step 2: Replace slackToken and Rebrandly API key in server.js
+**Step 2**: Replace slackToken and Rebrandly API key in server.js
 
-Step 3: Type `ngrok http 3000` in the terminal *(Make sure you have already installed and configured `ngrok` on your system)*
+**Step 3**: Type `ngrok http 3000` in the terminal *(Make sure you have already installed and configured `ngrok` on your system)*
 
-Step 4: Move to your slack channel and type the command *(Don't forget to mention URL(s), domain and slashtag(s))*
+**Step 4**: Move to your slack channel and type the command *(Don't forget to mention URL(s), domain and slashtag(s))*
 
 ![alt text](https://github.com/khyati-agarwalss/URL-Shortener/blob/master/demo.gif)
 Thanks to [Luciano Mammino](https://scotch.io/@loige), whose amazing [tutorial](https://scotch.io/tutorials/create-a-custom-slack-slash-command-with-nodejs-and-express) helped me build this integration.
